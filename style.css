@@ -111,6 +111,8 @@ ul li {
     text-transform: uppercase;
     transition: 0.5s;
 }
+ul.active li {
+    transform: translateY(-30px);
 ul li span {
     display: block;
     width: 100%;
