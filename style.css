@@ -102,6 +102,7 @@ ul {
     border: 1px solid #000;
     background: #fff;
     cursor: pointer;
+    overflow: hidden;
 }
 ul li {
     list-style: none;
