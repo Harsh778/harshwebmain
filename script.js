@@ -1,13 +1,15 @@
-var nightModeToggleButton = document.querySelector(".nightModeButton");
-var container = document.querySelector(".container");
-var para = document.querySelector(".paragraph");
-var header = document.querySelector(".header");
-var maintext = document.querySelector("maintext");
+const modeBtn= document
+  .querySelector("#light-dark-mode-selector")
+  .addEventListener("click", function() {
+    const everything = document.querySelectorAll('*')
+    const projectTiles = document.querySelectorAll('.project-tile-overlay');
+    everything.forEach((item) => {
+      item.classList.toggle('dark');//important
+    });
+    projectTiles.forEach((item) => {
+      item.classList.remove('dark');
+    })
+ });
+    
 
-nightModeToggleButton.onclick = function () {
-  nightModeToggleButton.classList.toggle("night-mode");
-  container.classList.toggle("night-mode");
-  para.classList.toggle("night-mode");
-  header.classList.toggle("night-mode");
-  maintext.classList.toggle("night-mode");
-};
+
