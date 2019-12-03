@@ -1,15 +1,11 @@
-const modeBtn= document
-  .querySelector("#light-dark-mode-selector")
-  .addEventListener("click", function() {
-    const everything = document.querySelectorAll('*')
-    const projectTiles = document.querySelectorAll('.project-tile-overlay');
-    everything.forEach((item) => {
-      item.classList.toggle('dark');//important
-    });
-    projectTiles.forEach((item) => {
-      item.classList.remove('dark');
-    })
- });
-    
+    function dark() {
+        if (document.body.style.backgroundColor == 'rgb(255, 255, 255)') {
+
+                document.body.style.backgroundColor = '#333';
+        }
+        else {
+                document.body.style.backgroundColor = 'rgb(255, 255, 255)';
+        }
+    }
 
 
