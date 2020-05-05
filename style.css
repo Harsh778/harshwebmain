@@ -96,4 +96,9 @@ hr {
     text-shadow: none !important;
     box-shadow: none;
 }
+div {
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;  
+}
         
