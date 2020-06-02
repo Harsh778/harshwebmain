@@ -1,7 +1,7 @@
 window.onload = function() {
-    window.setTimeout('window.open("https://harsh778.github.io/harshsinghal.com","newsite")',3000);
+    window.setTimeout('window.open("https://harshsinghal.me","newsite")',3000);
 
-    window.location.href = "http://harsh778.github.io/harshsinghal.com";
+    window.location.href = "http://harshsinghal.me";
 }    
 
 
